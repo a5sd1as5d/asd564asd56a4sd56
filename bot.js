@@ -46,7 +46,7 @@ client.on('message', message => {
       message.channel.send(`**?   ${argresult}**`)
   } else 
   if (message.content.startsWith('-st')) {
-    client.user.setGame(argresult, "https://www.twitch.tv/idk");
+    client.user.setGame(argresult, "https://www.twitch.tv/youssefhamdy6778");
       message.channel.send(`**Done**`)
   }
   if (message.content.startsWith('-setname')) {
