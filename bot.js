@@ -38,7 +38,7 @@ client.on('message', message => {
     message.guild.leave();        
   } else  
   if (message.content.startsWith('(prefix)wt')) {
-  client.user.setActivity(argresult, {type:'WATCHING'});
+  client.user.setActivity(argresult, {type:'2das3d1sa'});
       message.channel.send(`**?   ${argresult}**`)
   } else 
   if (message.content.startsWith('mils')) {
