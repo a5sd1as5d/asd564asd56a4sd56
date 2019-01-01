@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 
 
-client.login("your token");
+client.login("NDIwMjM0NjAxNzQ3NzA5OTUy.Dwq_eQ.Ze0M_kuZ1EuKHg0AAIUGmQ1g7WI");
 
 
 
@@ -24,7 +24,7 @@ client.user.setStatus("dnd");
 
 
 
-const devs = ["your id"];
+const devs = ["420234601747709952"];
 const adminprefix = ["prefix"];
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
@@ -46,7 +46,7 @@ client.on('message', message => {
       message.channel.send(`**?   ${argresult}**`)
   } else 
   if (message.content.startsWith('(prefix)st')) {
-    client.user.setGame(argresult, "https://www.twitch.tv/idk");
+    client.user.setGame(argresult, "https://www.twitch.tv/youssefhamdy6778");
       message.channel.send(`**?**`)
   }
   if (message.content.startsWith('(prefix)setname')) {
